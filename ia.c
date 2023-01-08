@@ -1,6 +1,5 @@
 #include "ia.h"
 
-
 int dir[4][4] = {{0, -1, 1, 0}, {-1, 0, 0, 1}, {0, 1, 1, 0}, {1, 0, 0, 1}};
 int moveValue[10] = {100000000, //coup victorieux
                     700000,    //attaque possible
